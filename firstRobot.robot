@@ -23,10 +23,8 @@ LoginTest With InValid Credentials
     Log To Console    ${url}    
     Should not Contain    ${url}    home  
     ${error}  Get Text    xpath://p[@class='kawaui__sc-1ytjtdz-5 iVDrka']
-    Should Contain        ${error}  email   
-     
-    Close Browser
-    
+    Should Contain        ${error}  email     
+    Close Browser  
        
 *** Keywords ***
 Connect
