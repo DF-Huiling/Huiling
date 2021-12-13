@@ -36,4 +36,4 @@ Connect
     Input Text    name:password    ${password} 
     Click Button    id:onetrust-accept-btn-handler   
     Click Button    id:loginBt 
-    Sleep    5
+    Sleep    6
